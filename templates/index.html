@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+<div>
+
+<form  id="upload" action="../upload" method="post" enctype=multipart/form-data>
+<h4>Select file to upload:</h4>
+<input type="file" name="file">
+<h4>Enter comment:</h4>
+<input type="text" name="comment">
+<input type="submit"  value="Comment" id="comment">
+</form>
+
+<form  id="list" action="../list" method="post" enctype=multipart/form-data>
+<h4>List files for self:</h4>
+<input type="submit"  value="List" id="list">
+</form>
+
+<form  id="deleteall" action="../deleteall" method="post" enctype=multipart/form-data>
+<h4>Delete files:</h4>
+<input type="submit"  value="Delete" id="deleteal">
+</form>
+
+<form  id="listall" action="../listall" method="post" enctype=multipart/form-data>
+<h4>List files for all users:</h4>
+<input type="submit"  value="ListAll" id="listall">
+</form>
+
+</div>
+</body>
+</html>
